@@ -1,0 +1,218 @@
+h1, h2, h3, p {
+   margin: 0;
+}
+
+h1 {
+   color: brown;
+   font-family: serif;
+   font-size: 61px;
+   font-weight: normal;
+}
+
+h1 span {
+   font-weight: bold;
+   color:brown;
+}
+
+h3 {
+   font-weight: normal;
+}
+
+p {
+font-family:"Open Sans", sans-serif;
+color: black;
+}
+
+.t60 {color: rgb(0, 0, 0, 0.6);}
+
+.profissao {
+   font-size: 24px;
+}
+
+.periodo {
+   font-size: 15px;
+   margin-left:40px;
+}
+
+@keyframes anim1{
+   from{background-color: white;}
+   to{background-image: rgb(245, 233, 195) ;}
+}
+
+body{
+   background-color:rgb(245, 233, 195);
+   margin: 0;
+   animation-name: anim1;
+   animation-duration: 5s;
+  
+}
+
+header {
+background-color: white;
+padding: 32px 64px;
+
+}
+
+.dados {
+   display: inline-block;
+   margin-bottom: 10 px;
+}
+
+.foto {
+   border: 4px solid rgb(243, 153, 143);
+   border-radius: 10%;
+   margin-bottom: -150px;
+   margin-right: 40px;
+  
+}
+.linha{
+   margin-top: 8px;
+   border-top: 2px solid;
+   width: 80px;
+}
+
+main{
+   padding: 40px 70px;
+   display: flex;
+}
+
+.ColunaMenor{
+   margin-top: 80px;
+   width: 288px;
+}
+.ColunaMenor h2{
+   color: rgb(190, 34, 34);
+
+}
+.ColunaMenor li {
+   margin-top: 32px;
+   display: flex;
+}
+.ColunaMenor img {
+   width: 40px;
+   height: 40px;
+   border-radius: 4px;
+   margin-right: 8px; 
+}
+.ColunaMaior {
+   margin-left: 40px;
+}
+
+.experiencias .linha {
+   border-color: brown ;
+}
+
+.formacao .linha {
+   border-color: rgb(228, 8, 45) ;
+}
+
+.conteudo{
+   display: inline-block;   
+}
+
+ul, ol {
+   list-style-type: none;
+   padding: 0px;
+}
+.habilidade{
+   display: flex;
+   margin-top: 20px;
+   flex-wrap: wrap;
+}
+.habilidades h2{
+   font-size: 50px;
+   margin-bottom: 20px;
+   margin-left: 15px;
+   color: rgb(190, 34, 34);
+}
+.projetos h2{
+   font-size: 50px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 15px;
+   color: rgb(190, 34, 34);
+}
+.cursos {
+   background-color: white;
+   border-radius: 16px;
+   padding: 24px;
+   margin: 12px;
+   width: 288px;
+  
+}
+.cursos h3{
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 16px;
+   text-align: center;
+}
+.cursos p{
+   font-size: 20px;
+}
+.progresso{
+   width: 100%;
+   display: flex;
+}
+.barra{
+   width: 20%;
+   margin-top: 8px;
+   height: 4px;
+   background-color: rgb(228, 11, 11);
+}
+.incompleto{
+   opacity: 0.2;
+}
+.habilidades li {
+   margin-top: 15px;
+}
+.arrumar{
+   display: flex;
+}
+
+.projeto{
+   width: 392px;
+   padding: 24px;
+   background-color: white;
+   border-radius: 16px;
+   margin: 12px;
+}
+.projeto h3{
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 16px;
+   text-align: center;
+}
+.projeto p{
+   font-size: 17px;
+   margin-top: 24px;
+   margin-bottom: 24px;
+   text-align: center;
+}
+.projeto img {
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.projeto a{
+   display: inline-block;
+   text-decoration: none;
+   background-color: rgba(173, 28, 28, 0.5);
+   color: white;
+   padding: 8px 24px;
+   font-family: "Open Sans", sans-serif;
+   border-radius: 4px;
+   font-weight: 600;
+   text-align: center;
+   margin-top: 60px;
+   align-items: center;
+}
+footer{
+   background-color: white;
+   color: rgb(190, 34, 34);
+   padding: 58px;
+   text-align: center;
+   font-size: 24px;
+   
+}
+
